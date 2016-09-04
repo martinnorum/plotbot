@@ -8,9 +8,12 @@ module.exports = (robot) => {
     'Dumplings'
   ]
 
-  robot.hear(/lunch/i, (res) => {
+  const randomRestaurant = (res) => {
     res.send(
       `${res.random(resturants)}?`
     )
-  })
+  }
+
+  robot.hear(/mat/i, randomRestaurant)
+  robot.hear(/lunch/i, randomRestaurant)
 }
