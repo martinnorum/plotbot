@@ -3,7 +3,7 @@ module.exports = (robot) => {
     'Vappe',
     'Sushi o glass',
     'Texas',
-    'Gnällgrottan',
+    'Gnällgrottan ... (sadpanda)',
     'Wiggo',
     'Dumplings'
   ]
