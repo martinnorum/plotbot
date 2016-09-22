@@ -1,5 +1,5 @@
 module.exports = (robot) => {
-  const resturants = [
+  const restaurants = [
     'Vappe',
     'Sushi o glass',
     'Texas',
@@ -10,7 +10,7 @@ module.exports = (robot) => {
 
   const randomRestaurant = (res) => {
     res.send(
-      `${res.random(resturants)}?`
+      `${res.random(restaurants)}?`
     )
   }
 
